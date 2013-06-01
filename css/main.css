@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Futura_Md_BT;
+    src: url(fonts/Futura_Md_BT_Medium.ttf);
+    }
+body        { background-image: url("img/body.png"); background-repeat: repeat}
+.wrapper    { width: 1278px; margin:auto; position: relative;  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+              -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);  box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.clearfix   { clear: both}
+
+        /*Header*/
+
+.headerWR   { background-image: url("img/bodyHeaderBG.png"); background-repeat: repeat-x; overflow: hidden }
+.header a   { font-family:  Futura_Md_BT;  color: #d7d5d8;  text-decoration: none;}
+.header     { background-image: url("img/BG.png"); overflow: hidden; position: relative}
+#logo       { margin-left: 166px; margin-top: 30px; float: left; padding-bottom: 28px}
+
+/*NAV*/
+.nav        { float: right;   border-bottom: 1px black solid; padding-left: 60px; padding-right:  40px }
+#FB         { margin: 34px 18px 0px 0px}
+#tw         { margin: 34px 17px 0px 0px;}
+.nav a      { font-family:  Futura_Md_BT; font-size: 12px; color: #d7d5d8;  text-decoration: none; padding-right: 4px;
+              padding-top: 55px; padding-bottom: 5px }
+i.headerI  {  background-image: url("img/headerBrVert.png"); width: 6px; height: 77px; display: inline-block; padding-bottom: 5px}
+
+/*menu*/
+.menu       { background-image: url("img/panel.png"); height: 68px; clear: both; overflow: hidden}
+.menu a     { font-family:  Futura_Md_BT; font-size: 25px; color: #d7d5d8;  text-decoration: none;}
+.submenu    { margin-top: 5px}
+.submenu a  { font-size: 14px; padding-left: 5px }
+a.first     { border-right: 1px #d7d5d8 solid; padding-left: 10px; padding-right: 10px}
+a.mainBut   { margin-top: 5px; display: block; padding-left: 7px}
+.home       { display: inline-block; background-image: url("img/homeBG.png"); height: 69px; width: 240px; margin-left: 168px;
+              background-position: 0 -2px; margin-right: -7px}
+.gallery    { display: inline-block; background-image: url("img/galleryBG.png"); height: 69px; width: 240px; background-position: 0 -2px;
+              margin-right: -7px}
+.about      { display: inline-block; background-image: url("img/aboutBG.png"); height: 69px; width: 240px; background-position: 0 -2px;
+              margin-right: -7px}
+.service    { display: inline-block; background-image: url("img/serviceBG.png"); height: 69px; width: 239px; background-position: 0 -2px;
+               margin-right: -7px}
+
+
+
+/*body*/
+
+.innerWr           { margin-left: 165px; position: relative; padding-bottom: 150px; margin-right: 160px }
+.body               { position:absolute; overflow: hidden; opacity: 0.5; z-index: -1;  height: 450px; width: 100%; bottom: 0px}
+.graph              { background-image: url("img/graphBG.png"); background-repeat: repeat; position: relative; padding-bottom: 150px; z-index: 2;}
+.orange             { display: inline-block; background: url("img/orange.png") no-repeat 0 7px; height: 89px; width: 953px;  margin-top: 5px }
+.orange h4          { font-family:  Futura_Md_BT; font-size: 24px; color: #fdfdfd; margin-left: 24px; margin-bottom:15px }
+
+
+
+article             { float: left; width: 265px;  margin-left: 68px; }
+article.firstArt    { margin-left: 103px; margin-right: 91px}
+article h5          { font-family:  Futura_Md_BT;  color: #282828; font-size: 20px;  padding-top: 30px ; margin-bottom: 0;
+                      text-align: center; display: block}
+article p           { font-family:  Futura_Md_BT;  color: #282828; font-size: 14px; padding-bottom: 17px}
+ul                  { list-style: none outside url("img/list.png"); padding: 0 20px; margin: 0;  }
+article:before      {  content:""; position:absolute; width: 4px; height: 268px; background: url("img/artBreak.png") no-repeat -2px 0;
+                       top: 98px; left: 474px}
+.titleWR            { height: 78px}
+i                   { background-image: url("img/titlebreak.png"); width: 265px; height: 3px; display: inline-block}
+i.dash              { background-image: url("img/dash.png"); width: 265px; height: 5px; display: inline-block}
+i.parBreak          { background-image: url("img/paragrbeak.png"); width: 265px; height: 2px; display: inline-block}
+
+button              { background-image: url("img/inactButton.png"); border: none; float: right;  width: 86px; height: 27px;
+                     border-radius: 5px; margin-top: 20px;  }
+button:hover        { background-image: url("img/actButton.png")}
+
+
+.Works              { margin-top: 80px; margin-bottom: 60px}
+.Works h4           {  font-family:  Futura_Md_BT; font-size: 25px; color: #000000; margin-bottom: 50px}
+.pics               { height: 101px}
+.pics img           { max-width: 205px; margin-right: 30px}
+.graph h6           { color: #777272; font-family:  Futura_Md_BT ; font-weight: normal; font-size: 20px; text-align: center;
+                      margin-left: 142px; margin-right: 213px; margin-bottom: 0}
+span             { font-family:  tahoma ;  color: #000000;  font-size: 30px; text-align:  center;}
+
+.info               { float: left; width: 209px; margin-top: 36px; margin-right: 29px}
+.info h5            { margin: 0; padding: 0}
+.info img           { max-width: 63px; float: left; margin-right: 10px; margin-top: 10px }
+
+/*footer*/
+
+footer          { background-image: url("img/bodyHeaderBG.png"); background-repeat: repeat-x; overflow: hidden; clear: both}
+.footer         { padding-bottom: 50px; height: 200px }
+.footer h6      { font-family:  tahoma ;  color: #fefefe;  font-size:15px; text-align:  center; padding: 0px; margin: 0px }
+.footTitl        { width: 276px; padding-top: 20px; margin-bottom: 13px }
+
+
+i.footI          { width: 248px; height: 4px; background-image: url("img/footBreak.png"); display: inline-block}
+.lftFoot        { float: left;  margin-left: 184px; width: 511px}
+.rightFoot      { float: left; margin-left: 130px; width: 330px}
+footer a        { font-family:  tahoma;  color: #a9d2ff; font-size: 12px; text-decoration: none;  border-right: 1px solid #a9d2ff;
+                padding: 0 5px; padding-left: 3px}
+
